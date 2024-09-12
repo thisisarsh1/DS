@@ -8,3 +8,17 @@ typechain-types
 #Hardhat files
 cache*
 artifacts*
+# Ignore system files
+.DS_Store
+.Trash/
+
+# Ignore user config files
+.zshrc
+.viminfo
+.gitconfig
+.ssh/
+.vscode/
+
+# Ignore node modules and other project-specific files
+node_modules/
+.cache/
