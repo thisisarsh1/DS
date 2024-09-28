@@ -1,8 +1,0 @@
-# Ignore system and config files
-.DS_Store
-.Trash/
-.zshrc
-.viminfo
-.gitconfig
-.vscode/
-node_modules/

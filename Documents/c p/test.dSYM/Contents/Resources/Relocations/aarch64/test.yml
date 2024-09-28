@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rehbarkhan/Documents/c p/test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initQueue, symObjAddr: 0x0, symBinAddr: 0x1000038CC, symSize: 0x2C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _initQueue, symObjAddr: 0x0, symBinAddr: 0x1000038CC, symSize: 0x2C }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _isEmpty, symObjAddr: 0x2C, symBinAddr: 0x1000038F8, symSize: 0x24 }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _isFull, symObjAddr: 0x50, symBinAddr: 0x10000391C, symSize: 0x24 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x74, symBinAddr: 0x100003940, symSize: 0x84 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0xF8, symBinAddr: 0x1000039C4, symSize: 0x94 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _front, symObjAddr: 0x18C, symBinAddr: 0x100003A58, symSize: 0x6C }
+  - { offsetInCU: 0x145, offset: 0x145, size: 0x8, addend: 0x0, symName: _printQueue, symObjAddr: 0x1F8, symBinAddr: 0x100003AC4, symSize: 0xC8 }
+  - { offsetInCU: 0x185, offset: 0x185, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C0, symBinAddr: 0x100003B8C, symSize: 0x244 }
+...
